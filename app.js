@@ -199,7 +199,7 @@ function renderHome() {
     <section class="home">
 
       <div class="title-strip">
-        <img src="img/titre2.png" alt="Titre de l'application" class="title-strip-img">
+        <img src="img/titre.png" alt="Titre de l'application" class="title-strip-img">
       </div>
 
       <!-- Ligne 1 -->
@@ -862,7 +862,7 @@ function renderAnesthMenu() {
   $app.innerHTML = `
     <section class="anesth-menu">
       <div class="title-strip">
-        <img src="img/titre3.png" alt="Titre de l'application" class="title-strip-img">
+        <img src="img/titre2.png" alt="Titre de l'application" class="title-strip-img">
       </div>
 
       <div class="anesth-cards">
@@ -12120,7 +12120,7 @@ function renderReanMenu() {
   $app.innerHTML = `
     <section class="rean-menu">
     <div class="title-strip">
-        <img src="img/titre4.png" alt="Titre de l'application" class="title-strip-img">
+        <img src="img/titre3.png" alt="Titre de l'application" class="title-strip-img">
       </div>
 
       <div class="grid rean-grid">
@@ -19386,7 +19386,7 @@ function renderCEC() {
     <section class="cec-page">
 
       <div class="cec-title-strip">
-        <img src="img/titre5.png" alt="CEC" class="cec-title-img">
+        <img src="img/titre4.png" alt="CEC" class="cec-title-img">
       </div>
 
       <div class="cec-content">
