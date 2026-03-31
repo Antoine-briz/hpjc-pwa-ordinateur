@@ -22394,7 +22394,7 @@ function renderTeachingClonePage(cfg) {
 
     // ===== UPLOAD =====
     const safeName = name.replace(/[^\w.\-]+/g, "_");
-    const path = `${cfg.storageFolder}/${Date.now()}__${safeName}`;
+    const path = `ipra/${cfg.storageFolder}/${Date.now()}__${safeName}`;
     const ref = window.storage.ref().child(path);
 
     try {
