@@ -21242,7 +21242,7 @@ const uploadToStorage = async (file) => {
   }
 
   const safeName = name.replace(/[^\w.\-]+/g, "_");
-  const path = `teaching/${Date.now()}__${safeName}`;
+  const path = `ipra/teaching/${Date.now()}__${safeName}`;
   const ref = window.storage.ref().child(path);
 
   try {
