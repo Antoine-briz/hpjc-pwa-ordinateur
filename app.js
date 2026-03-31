@@ -11270,12 +11270,6 @@ function renderReanMenu() {
           <h3>EER et échanges plasmatiques</h3>
         </div>
 
-        <!-- 8. Transplantation cardiaque -->
-        <div class="card rean-card" onclick="location.hash = '#/reanimation/transplantation'">
-          <img src="img/transplantation.png" alt="Transplantation cardiaque" class="menu-section-img" />
-          <h3>Transplantation cardiaque</h3>
-        </div>
-
         <!-- 9. Assistances circulatoires -->
         <div class="card rean-card" onclick="location.hash = '#/reanimation/assistances'">
           <img src="img/assistances.png" alt="Assistances circulatoires" class="menu-section-img" />
