@@ -9389,7 +9389,7 @@ body.theme-light .ens-modal-saving-spinner {
 
 .rean-grid {
   display: grid;
-  grid-template-columns: repeat(4, 205px); /* largeur fixe plus petite */
+  grid-template-columns: repeat(4, 190px); /* largeur fixe plus petite */
   justify-content: center;                  /* centre la grille */
   gap: 12px;
 }
