@@ -26234,14 +26234,6 @@ const routes = {
   "#/anesthesie/vasculaire/endoprotheses": sub(renderAnesthVasculaireMenu, renderInterventionEndoprotheses),
   "#/anesthesie/vasculaire/protocoles": sub(renderAnesthVasculaireMenu, renderVasculaireProtocoles),
 
-  "#/anesthesie/radiovasculaire": renderAnesthRadioVascMenu,
-  "#/anesthesie/radiovasculaire/fav": sub(renderAnesthRadioVascMenu, renderInterventionRadioVascFAV),
-  "#/anesthesie/radiovasculaire/membre-inferieur": sub(renderAnesthRadioVascMenu, renderInterventionRadioVascMI),
-  "#/anesthesie/radiovasculaire/embolisation": sub(renderAnesthRadioVascMenu, renderInterventionRadioVascEmbol),
-  "#/anesthesie/radiovasculaire/ablation-abdominale": sub(renderAnesthRadioVascMenu, renderInterventionRadioVascAbdo),
-  "#/anesthesie/radiovasculaire/tips": sub(renderAnesthRadioVascMenu, renderInterventionRadioVascTIPS),
-  "#/anesthesie/radiovasculaire/drainage-biliaire": sub(renderAnesthRadioVascMenu, renderInterventionRadioVascBiliaire),
-  "#/anesthesie/radiovasculaire/nephrostomie": sub(renderAnesthRadioVascMenu, renderInterventionRadioVascNephro),
 
   // ---------------------------
   // RÉANIMATION
