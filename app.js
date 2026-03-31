@@ -22293,7 +22293,7 @@ function esc(s) {
     <section class="page enseignement-page">
 
     <div class="title-strip">
-      <img src="img/titre6.png" alt="Titre" class="title-strip-img">
+      <img src="img/titre5.png" alt="Titre" class="title-strip-img">
     </div>
 
       <div class="enseignement-categories-wrap">
@@ -22929,7 +22929,7 @@ function renderBibliographie() {
     <section class="container">
 
     <div class="title-strip">
-      <img src="img/titre7.png" alt="Titre" class="title-strip-img">
+      <img src="img/titre6.png" alt="Titre" class="title-strip-img">
     </div>
 
     <div class="biblio-actions">
@@ -24216,7 +24216,7 @@ const hideEditProtocolsModal = () => {
   <section class="page recherche-page enseignement-page">
 
     <div class="title-strip">
-      <img src="img/titre8.png" alt="Titre" class="title-strip-img">
+      <img src="img/titre7.png" alt="Titre" class="title-strip-img">
     </div>
 
     <!-- Sélection protocole -->
