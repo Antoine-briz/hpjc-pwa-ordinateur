@@ -9317,3 +9317,67 @@ body.theme-light .ens-modal-saving-spinner {
 @keyframes ens-spin {
   to { transform: rotate(360deg); }
 }
+
+/* =========================
+   🔧 MENU ANESTHÉSIE
+   ========================= */
+
+.anesth-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colonnes fixes */
+  gap: 16px;
+}
+
+/* Optionnel : homogénéiser les cartes */
+.anesth-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* Responsive mobile */
+@media (max-width: 768px) {
+  .anesth-cards {
+    grid-template-columns: 1fr; /* empilé sur mobile */
+  }
+}
+
+.anesth-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* =========================
+   🔧 MENU RÉANIMATION
+   ========================= */
+
+.rean-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 colonnes */
+  gap: 16px;
+}
+
+/* Harmonisation des cartes */
+.rean-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Optionnel : uniformiser les images */
+.rean-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Responsive mobile */
+@media (max-width: 768px) {
+  .rean-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 par ligne */
+  }
+}
