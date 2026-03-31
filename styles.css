@@ -9388,10 +9388,10 @@ body.theme-light .ens-modal-saving-spinner {
    ========================= */
 
 .rean-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 170px); /* largeur fixe plus petite */
-  justify-content: center;                  /* centre la grille */
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
   gap: 12px;
+  width: 100%;
 }
 
 .rean-card {
@@ -9399,6 +9399,7 @@ body.theme-light .ens-modal-saving-spinner {
   flex-direction: column;
   text-align: center;
   padding: 10px;
+  min-width: 0; /* évite qu’un contenu force un retour à la ligne */
 }
 
 .rean-card img {
@@ -9412,19 +9413,19 @@ body.theme-light .ens-modal-saving-spinner {
   font-size: 14px;
   line-height: 1.25;
   margin: 10px 0 0;
+  overflow-wrap: anywhere; /* évite que le texte casse la grille */
 }
 
 /* Tablette */
 @media (max-width: 900px) {
   .rean-grid {
-    grid-template-columns: repeat(3, 170px);
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
   }
 }
 
 /* Mobile */
 @media (max-width: 680px) {
   .rean-grid {
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: stretch;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
 }
