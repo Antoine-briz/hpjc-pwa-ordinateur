@@ -1,6 +1,6 @@
 {
-  "name": "Protocoles SARIC",
-  "short_name": "Protocoles SARIC",
+  "name": "Protocoles IPRA",
+  "short_name": "Protocoles IPRA",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
